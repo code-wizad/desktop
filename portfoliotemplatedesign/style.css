@@ -1,0 +1,174 @@
+/* font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+ --logo-white: white;
+   --logo-black:black;
+   --a-white: white;
+   --a-black: black;
+   --a-backgroune-white: rgb(177, 4, 4);
+   --a-background-black: black;
+   --backgroun-black: rgb(111, 8, 8);
+   --background-red:rgb(255, 0, 0);
+   --background-green: rgba(125, 201, 48, 0.541);
+  
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* selectore psuedo-element is limited */
+p::selection {
+    background-color: green;
+    color: white;
+}
+header h1 {
+    font-size: 5rem;
+}
+h1::selection {
+    color: brown;
+    background-color: aliceblue;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--background-green);
+font-family: 'Courier New', Courier, monospace;
+}
+
+/* Desktop navigationbar starts */
+nav {
+    background-color: black;
+}
+.navbar-brand,
+.navbar .nav-link {
+    color: wheat;
+}
+.navbar-brand {
+    margin: 0 auto 0 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: wheat;
+}
+.nav-link:not(.navbar-brand) {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-link {
+    text-decoration-color: transparent;
+}
+.navbar .nav-link:hover {
+    text-decoration: overline;
+    text-decoration-color: gray;
+}
+.navbar .nav-link:focus {
+    text-decoration: line-through;
+    text-decoration-color:black;
+}
+/* Desktop navigationbar ends */
+/* offcanvas starts */
+.offcanvas {
+ background-color: rgba(0, 0, 0, 0.827);
+    margin: 10px 0px 10px 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+button[data-bs-dismiss="offcanvas"] {
+    background-color: rgba(128, 128, 128, 0.515);
+    border-radius: 50%;
+}
+.offcanvas-body {
+  background-color: transparent;
+    border-radius: 10px 10px 10px 10px;
+}
+.offcanvas h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+.offcanvas p {
+    text-align: center;
+    color: rgb(169, 174, 169);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.offcanvas ul {
+    list-style: none;
+}
+.offcanvas ul#buttons .nav-item {
+    margin: 10px;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.offcanvas ul#menu .nav-link {
+    width: 100%;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+ background-color: #FFF1;
+    margin: 5px 0 2px 0;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background-color 200ms ease 100ms, color 200 ease 200ms;
+}
+.offcanvas ul#menu .nav-link:hover {
+    /* background-color: lightgreen; */
+   color: aliceblue;
+}
+
+
+.offcanvas ul#buttons .nav-item:first-child:first-child {
+    border: 1px solid rgba(128, 128, 128, 0.219);
+}
+.offcanvas ul#buttons .nav-item:last-child {
+    border: 1px solid rgba(128, 128, 128, 0.219);
+}
+.offcanvas .nav-link {
+    width: 100%;
+    font-size: 1.25em;
+    color: rgb(254, 254, 254, .5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.offcanvas a[role='button'] {
+color: grey;
+border-radius: 500px;
+}
+.offcanvas a[role='button']:hover {
+color: white;
+}
+.offcanvas-social {
+    margin: 50px 0 0 0;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.offcanvas-social a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: grey;
+    padding: 4px;
+}
+.offcanvas-social a:hover {
+    color: wheat;
+}
+.offcanvas-social a:focus {
+    /* color: green; */
+    text-decoration: line-through;
+    text-decoration-color: aliceblue;
+   /* border: 1px dotted gray; */
+}
+/* offcanvas ends */
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+:root {
+    --width-25vw: 25vw; 
+    --width_50vw: 50vw;
+    --width_75vw: 75vw;
+    --width_100vw: 100vw;
+    --para_margin_r_auto: 0 0 0 auto;
+    --para_margin_l_auto: auto 0 0 0;
+    --bg-black: black;
+    --bg-white: white;
+    --bg-grey: grey;
+    --bg-green: green;
+    --bg-off-white: #FAF9F6;
+    --bg-pearl: #FBFCF8;
+    --bg-eggshell: #FFF9E3;
+    --bg-coconut: #FFF1E6;
+    --bg-parchment: #FBF5DF;
+    --bg-cream: #F5F5EB;
+    --bg-ash: #A92929;
+    --bg-ivory: #FFFFF0;
+    --bg-marble: #F2F8FC;
+    --bg-gold-steel: #F8F7F4;
+    --bg-sandinavian: #EBFADB;
+    --bg-froth: #F8F7E8;
+
+}
+
+
